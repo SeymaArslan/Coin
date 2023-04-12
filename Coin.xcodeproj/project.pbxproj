@@ -16,6 +16,8 @@
 		1203C7D429DEB01D00A2EE68 /* CoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203C7D329DEB01D00A2EE68 /* CoinTests.swift */; };
 		1203C7DE29DEB01D00A2EE68 /* CoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203C7DD29DEB01D00A2EE68 /* CoinUITests.swift */; };
 		1203C7E029DEB01D00A2EE68 /* CoinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203C7DF29DEB01D00A2EE68 /* CoinUITestsLaunchTests.swift */; };
+		1203C7EF29DEB15700A2EE68 /* CoinYonetim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203C7EE29DEB15700A2EE68 /* CoinYonetim.swift */; };
+		1203C7F429DEFE5D00A2EE68 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1203C7F329DEFE5D00A2EE68 /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1203C7D929DEB01D00A2EE68 /* CoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1203C7DD29DEB01D00A2EE68 /* CoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinUITests.swift; sourceTree = "<group>"; };
 		1203C7DF29DEB01D00A2EE68 /* CoinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1203C7EE29DEB15700A2EE68 /* CoinYonetim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinYonetim.swift; sourceTree = "<group>"; };
+		1203C7F329DEFE5D00A2EE68 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,12 @@
 			children = (
 				1203C7BC29DEB01C00A2EE68 /* AppDelegate.swift */,
 				1203C7BE29DEB01C00A2EE68 /* SceneDelegate.swift */,
-				1203C7C029DEB01C00A2EE68 /* ViewController.swift */,
-				1203C7C229DEB01C00A2EE68 /* Main.storyboard */,
+				1203C7ED29DEB13200A2EE68 /* Controller */,
+				1203C7EC29DEB12A00A2EE68 /* View */,
 				1203C7C529DEB01D00A2EE68 /* Assets.xcassets */,
 				1203C7C729DEB01D00A2EE68 /* LaunchScreen.storyboard */,
 				1203C7CA29DEB01D00A2EE68 /* Info.plist */,
+				1203C7F029DEB15D00A2EE68 /* Model */,
 			);
 			path = Coin;
 			sourceTree = "<group>";
@@ -125,6 +130,31 @@
 				1203C7DF29DEB01D00A2EE68 /* CoinUITestsLaunchTests.swift */,
 			);
 			path = CoinUITests;
+			sourceTree = "<group>";
+		};
+		1203C7EC29DEB12A00A2EE68 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1203C7C229DEB01C00A2EE68 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1203C7ED29DEB13200A2EE68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1203C7C029DEB01C00A2EE68 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1203C7F029DEB15D00A2EE68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1203C7EE29DEB15700A2EE68 /* CoinYonetim.swift */,
+				1203C7F329DEFE5D00A2EE68 /* CoinData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1203C7F429DEFE5D00A2EE68 /* CoinData.swift in Sources */,
 				1203C7C129DEB01C00A2EE68 /* ViewController.swift in Sources */,
 				1203C7BD29DEB01C00A2EE68 /* AppDelegate.swift in Sources */,
+				1203C7EF29DEB15700A2EE68 /* CoinYonetim.swift in Sources */,
 				1203C7BF29DEB01C00A2EE68 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
